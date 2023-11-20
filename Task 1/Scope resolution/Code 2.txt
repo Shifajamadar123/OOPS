@@ -1,0 +1,15 @@
+case2: Accessing Static Members
+#include <iostream>
+using namespace std;
+
+class MyClass {
+public:
+    static int myStaticVar;
+};
+
+int MyClass::myStaticVar = 42;
+
+int main() {
+    cout << "Static variable: " << MyClass::myStaticVar << endl;
+    return 0;
+}

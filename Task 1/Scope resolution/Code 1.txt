@@ -1,0 +1,14 @@
+case1: Accessing Global Variables
+#include <iostream>
+using namespace std;
+
+int globalVar = 10;
+
+int main() {
+    int localVar = 5;
+
+    cout << "Global variable: " << ::globalVar << endl;
+    cout << "Local variable: " << localVar << endl;
+
+    return 0;
+}

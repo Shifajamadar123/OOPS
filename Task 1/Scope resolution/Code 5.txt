@@ -1,0 +1,20 @@
+case5: To Define Member Functions
+#include <iostream>
+using namespace std;
+
+class MyClass {
+public:
+    void display();
+};
+
+
+void MyClass::display() {
+    cout << "This is a member function defined using the scope resolution operator." << endl;
+}
+
+int main() {
+    MyClass obj;
+    obj.display();
+
+    return 0;
+}

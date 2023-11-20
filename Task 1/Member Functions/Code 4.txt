@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+class MyClass
+{
+public:
+    void method1(int id);
+};
+
+void MyClass::method1(int id)
+{
+    cout<< "Outside class definition for id: "<<id<<endl;
+}
+
+int main()
+{
+    MyClass m1;
+    m1.method1(40);
+    return 0;
+}

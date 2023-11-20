@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+class MyClass
+{
+	public:
+	int id;
+
+	~MyClass()
+	{
+		cout << "Destructor called for id: " << id <<endl;
+	}
+};
+
+int main()
+{
+	MyClass m1;
+	m1.id=7;
+	return 0;
+}

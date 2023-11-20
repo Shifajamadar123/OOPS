@@ -1,0 +1,21 @@
+case4: Accessing Members Of Nested Class
+#include <iostream>
+using namespace std;
+
+class Outer {
+public:
+    int outerVar = 5;
+
+    class Inner {
+    public:
+        int innerVar = 10;
+    };
+};
+
+int main() {
+    Outer::Inner innerObj;
+
+    cout << "Inner variable: " << innerObj.innerVar << endl;
+
+    return 0;
+}

@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+class MyClass
+{
+	public:
+	string name;
+	int id;
+	void printname();
+	void printid()
+	{ cout <<" User id is: "<<id; }
+};
+void MyClass::printname()
+{ cout <<"User name is: "<<name; }
+int main() {
+	MyClass m1;
+	m1.name = "xyz";
+	m1.id=15;
+	m1.printname();
+	m1.printid();
+	return 0;
+}
