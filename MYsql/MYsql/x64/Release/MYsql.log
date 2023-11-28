@@ -1,0 +1,35 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (MYsql.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Main.cpp
+D:\c++ programs\MYsql\MYsql\MarksDao.h(35,46): warning C4244: 'argument': conversion from 'long double' to 'float', possible loss of data
+D:\c++ programs\MYsql\MYsql\MarksDao.h(36,46): warning C4244: 'argument': conversion from 'long double' to 'float', possible loss of data
+D:\c++ programs\MYsql\MYsql\MarksDao.h(37,45): warning C4244: 'argument': conversion from 'long double' to 'float', possible loss of data
+D:\c++ programs\MYsql\MYsql\MarksDao.h(38,49): warning C4244: 'argument': conversion from 'long double' to 'float', possible loss of data
+     Creating library D:\c++ programs\MYsql\x64\Release\Course Project_OOPS.lib and object D:\c++ programs\MYsql\x64\Release\Course Project_OOPS.exp
+  Generating code
+  1 of 335 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+mysqlcppconn-static.lib(mysql_driver.obj) : warning LNK4099: PDB 'jdbc.pdb' was not found with 'mysqlcppconn-static.lib(mysql_driver.obj)' or at 'D:\c++ programs\MYsql\x64\Release\jdbc.pdb'; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_connection.obj) : warning LNK4099: PDB 'jdbc.pdb' was not found with 'mysqlcppconn-static.lib(mysql_connection.obj)' or at 'D:\c++ programs\MYsql\x64\Release\jdbc.pdb'; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_native_driver_wrapper.obj) : warning LNK4099: PDB 'jdbc.pdb' was not found with 'mysqlcppconn-static.lib(mysql_native_driver_wrapper.obj)' or at 'D:\c++ programs\MYsql\x64\Release\jdbc.pdb'; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_uri.obj) : warning LNK4099: PDB 'jdbc.pdb' was not found with 'mysqlcppconn-static.lib(mysql_uri.obj)' or at 'D:\c++ programs\MYsql\x64\Release\jdbc.pdb'; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_metadata.obj) : warning LNK4099: PDB 'jdbc.pdb' was not found with 'mysqlcppconn-static.lib(mysql_metadata.obj)' or at 'D:\c++ programs\MYsql\x64\Release\jdbc.pdb'; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_warning.obj) : warning LNK4099: PDB 'jdbc.pdb' was not found with 'mysqlcppconn-static.lib(mysql_warning.obj)' or at 'D:\c++ programs\MYsql\x64\Release\jdbc.pdb'; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_prepared_statement.obj) : warning LNK4099: PDB 'jdbc.pdb' was not found with 'mysqlcppconn-static.lib(mysql_prepared_statement.obj)' or at 'D:\c++ programs\MYsql\x64\Release\jdbc.pdb'; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_statement.obj) : warning LNK4099: PDB 'jdbc.pdb' was not found with 'mysqlcppconn-static.lib(mysql_statement.obj)' or at 'D:\c++ programs\MYsql\x64\Release\jdbc.pdb'; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_debug.obj) : warning LNK4099: PDB 'jdbc.pdb' was not found with 'mysqlcppconn-static.lib(mysql_debug.obj)' or at 'D:\c++ programs\MYsql\x64\Release\jdbc.pdb'; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_client_api.obj) : warning LNK4099: PDB 'jdbc.pdb' was not found with 'mysqlcppconn-static.lib(mysql_client_api.obj)' or at 'D:\c++ programs\MYsql\x64\Release\jdbc.pdb'; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_native_connection_wrapper.obj) : warning LNK4099: PDB 'jdbc.pdb' was not found with 'mysqlcppconn-static.lib(mysql_native_connection_wrapper.obj)' or at 'D:\c++ programs\MYsql\x64\Release\jdbc.pdb'; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_util.obj) : warning LNK4099: PDB 'jdbc.pdb' was not found with 'mysqlcppconn-static.lib(mysql_util.obj)' or at 'D:\c++ programs\MYsql\x64\Release\jdbc.pdb'; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_art_resultset.obj) : warning LNK4099: PDB 'jdbc.pdb' was not found with 'mysqlcppconn-static.lib(mysql_art_resultset.obj)' or at 'D:\c++ programs\MYsql\x64\Release\jdbc.pdb'; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_resultbind.obj) : warning LNK4099: PDB 'jdbc.pdb' was not found with 'mysqlcppconn-static.lib(mysql_resultbind.obj)' or at 'D:\c++ programs\MYsql\x64\Release\jdbc.pdb'; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_ps_resultset.obj) : warning LNK4099: PDB 'jdbc.pdb' was not found with 'mysqlcppconn-static.lib(mysql_ps_resultset.obj)' or at 'D:\c++ programs\MYsql\x64\Release\jdbc.pdb'; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_ps_resultset_metadata.obj) : warning LNK4099: PDB 'jdbc.pdb' was not found with 'mysqlcppconn-static.lib(mysql_ps_resultset_metadata.obj)' or at 'D:\c++ programs\MYsql\x64\Release\jdbc.pdb'; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_parameter_metadata.obj) : warning LNK4099: PDB 'jdbc.pdb' was not found with 'mysqlcppconn-static.lib(mysql_parameter_metadata.obj)' or at 'D:\c++ programs\MYsql\x64\Release\jdbc.pdb'; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_resultset.obj) : warning LNK4099: PDB 'jdbc.pdb' was not found with 'mysqlcppconn-static.lib(mysql_resultset.obj)' or at 'D:\c++ programs\MYsql\x64\Release\jdbc.pdb'; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_native_resultset_wrapper.obj) : warning LNK4099: PDB 'jdbc.pdb' was not found with 'mysqlcppconn-static.lib(mysql_native_resultset_wrapper.obj)' or at 'D:\c++ programs\MYsql\x64\Release\jdbc.pdb'; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_native_statement_wrapper.obj) : warning LNK4099: PDB 'jdbc.pdb' was not found with 'mysqlcppconn-static.lib(mysql_native_statement_wrapper.obj)' or at 'D:\c++ programs\MYsql\x64\Release\jdbc.pdb'; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_art_rset_metadata.obj) : warning LNK4099: PDB 'jdbc.pdb' was not found with 'mysqlcppconn-static.lib(mysql_art_rset_metadata.obj)' or at 'D:\c++ programs\MYsql\x64\Release\jdbc.pdb'; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_resultset_metadata.obj) : warning LNK4099: PDB 'jdbc.pdb' was not found with 'mysqlcppconn-static.lib(mysql_resultset_metadata.obj)' or at 'D:\c++ programs\MYsql\x64\Release\jdbc.pdb'; linking object as if no debug info
+  MYsql.vcxproj -> D:\c++ programs\MYsql\x64\Release\Course Project_OOPS.exe
